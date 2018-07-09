@@ -1,11 +1,10 @@
 #!/bin/bash
+
 echo "Enter the value"
 
 read value
 
 echo "Searching..."
 
-tail -f dhcpd.log | grep $value
-
-
+tail -f text.txt | grep $value
 
