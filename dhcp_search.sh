@@ -8,4 +8,3 @@ echo "Searching..."
 
 tail -f dhcpd.log | grep $value
 
-
